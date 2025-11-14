@@ -1,0 +1,97 @@
+.workspace {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 12px;
+  background: rgba(20, 22, 36, 0.85);
+  color: #f6f7ff;
+  padding: 16px;
+  display: grid;
+  gap: 16px;
+}
+
+.controls {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+
+  label {
+    display: grid;
+    gap: 4px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    color: rgba(246, 247, 255, 0.7);
+  }
+
+  input,
+  select {
+    background: rgba(12, 14, 24, 0.85);
+    border: 1px solid rgba(243, 244, 255, 0.16);
+    border-radius: 8px;
+    padding: 6px 10px;
+    color: inherit;
+    font: inherit;
+  }
+}
+
+.summary {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  font-size: 0.85rem;
+
+  span {
+    background: rgba(246, 247, 255, 0.08);
+    border-radius: 6px;
+    padding: 4px 8px;
+  }
+}
+
+.list {
+  display: grid;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.group {
+  display: grid;
+  gap: 8px;
+}
+
+.eventCard {
+  background: rgba(12, 14, 24, 0.75);
+  border: 1px solid rgba(246, 247, 255, 0.12);
+  border-radius: 10px;
+  padding: 10px 12px;
+  display: grid;
+  gap: 4px;
+}
+
+.eventHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
+
+  h4 {
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  span {
+    font-size: 0.8rem;
+    color: rgba(246, 247, 255, 0.7);
+  }
+}
+
+.riskBadge {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: rgba(255, 143, 78, 0.16);
+  border: 1px solid rgba(255, 143, 78, 0.4);
+}
+

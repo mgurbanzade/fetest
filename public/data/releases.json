@@ -1,0 +1,63 @@
+[
+  {
+    "id": "REL-2411",
+    "title": "Usage insights launch",
+    "squad": "Atlas",
+    "owner": "Amelia Noel",
+    "targetDate": "2025-11-18",
+    "risk": "medium",
+    "status": "QA sign-off pending",
+    "notes": "Staging metrics need one more validation run."
+  },
+  {
+    "id": "REL-2412",
+    "title": "Incident timeline export",
+    "squad": "Beacon",
+    "owner": "Jon Ibarra",
+    "targetDate": "2025-11-14",
+    "risk": "high",
+    "status": "Blocked on load testing",
+    "notes": "Test environment flakes; rerunning with SRE support."
+  },
+  {
+    "id": "REL-2413",
+    "title": "Warehouse migration phase 2",
+    "squad": "Cipher",
+    "owner": "Greta Lind",
+    "targetDate": "2025-11-25",
+    "risk": "high",
+    "status": "Schema review in progress",
+    "notes": "Waiting on data governance sign-off for column changes."
+  },
+  {
+    "id": "REL-2414",
+    "title": "Billing API retry logic",
+    "squad": "Atlas",
+    "owner": "Felix Rami",
+    "targetDate": "2025-12-02",
+    "risk": "low",
+    "status": "Ready for rollout",
+    "notes": "Marketing launch assets queued for final review."
+  },
+  {
+    "id": "REL-2415",
+    "title": "Observability quickstart",
+    "squad": "Beacon",
+    "owner": "Nia Patel",
+    "targetDate": "2025-11-20",
+    "risk": "medium",
+    "status": "Docs review",
+    "notes": "Need to confirm updates with customer education team."
+  },
+  {
+    "id": "REL-2416",
+    "title": "Analytics drill-down",
+    "squad": "Cipher",
+    "owner": "Zaid Khalil",
+    "targetDate": "2025-12-05",
+    "risk": "medium",
+    "status": "QA ready",
+    "notes": "Final performance pass scheduled for Monday."
+  }
+]
+
