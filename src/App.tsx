@@ -1,5 +1,6 @@
 import TaskOne from './challenges/task-one/TaskOne'
 import TaskTwo from './challenges/task-two/TaskTwo'
+import './challenges/task-three/TaskThree'
 import styles from './App.module.scss'
 
 const App: React.FC = () => {
